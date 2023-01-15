@@ -23,6 +23,11 @@
       "name": "test",
       "deployments": [],
       "language": "ink"
+    },
+    "commons": {
+      "name": "commons",
+      "language": "ink",
+      "deployments": []
     }
   },
   "networks": {

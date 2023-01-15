@@ -1,7 +1,10 @@
 #![cfg_attr(not(feature = "std"), no_std)]
 
+use ink_lang as ink;
 
-#[openbrush::contract]
+#[ink::contract]
+
+// #[openbrush::contract]
 mod test {
     use commons::Base;
     /// Defines the storage of your contract.
